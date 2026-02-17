@@ -1,2 +1,19 @@
+# --- 1. Ignorar Arquivos de Sistema e Python (Padrão) ---
 __pycache__/
 *.pyc
+.DS_Store
+.vscode/
+.venv/
+venv/
+env/
+
+# --- 2. Ignorar Pastas de Produção do Livro (Seus Bastidores) ---
+pdfs_ebook/
+scripts/
+
+# --- 3. Ignorar a Pasta de Entrega Final ---
+Entregaveis_Finais_Kit_Aluno/
+
+# --- 4. Ignorar Arquivos PDF soltos na raiz ---
+*.pdf
+
